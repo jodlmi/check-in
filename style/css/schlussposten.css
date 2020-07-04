@@ -1,0 +1,214 @@
+/* @import url(//db.onlinewebfonts.com/c/0fadaa21fcac88ceee0bb8da992c221b?family=SalesforceSans-Regular); */
+/*Meta Fonts*/
+
+/* first for IE 4–8 */
+@font-face {
+  font-family: MetaWeb-Bold;
+  src: url("../fonts/MetaWeb-Bold.eot");
+}
+
+/* then for WOFF-capable browsers */
+@font-face {
+  font-family: MetaWeb-Bold;
+  src: url("../fonts/MetaWeb-Bold.woff") format("woff");
+}
+
+/* first for IE 4–8 */
+@font-face {
+  font-family: MetaWeb-Normal;
+  src: url("../fonts/MetaWeb-Normal.eot");
+}
+
+/* then for WOFF-capable browsers */
+@font-face {
+  font-family: MetaWeb-Normal;
+  src: url("../fonts/MetaWeb-Normal.woff") format("woff");
+}
+
+/* first for IE 4–8 */
+@font-face {
+  font-family: MetaScWeb-Bold;
+  src: url("../fonts/MetaScWeb-Bold.eot");
+}
+
+/* then for WOFF-capable browsers */
+@font-face {
+  font-family: MetaScWeb-Bold;
+  src: url("../fonts/MetaScWeb-Bold.woff") format("woff");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 250px;
+  margin-bottom: 10px;
+}
+body {
+  width: 100%;
+  /*font-family: SalesforceSans-Regular, sans-serif;*/
+  font-family: MetaWeb-Normal, sans-serif;
+  background: #0dfa04;
+  color: #333333;
+  font-size: 15px;
+}
+
+h1 {
+  font-family: MetaWeb-Bold, sans-serif;
+  text-align: left;
+  line-height: 180%;
+}
+
+h2 {
+  font-family: MetaWeb-Normal, sans-serif;
+  text-align: left;
+  line-height: 120%;
+}
+
+.strong {
+  font-family: MetaWeb-Bold, sans-serif;
+  font-size: 0.96em;
+}
+
+.container {
+  background: white;
+  max-width: 600px;
+  padding: 1em;
+  margin: 2em auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#final {
+  background-color: #000000;
+  border: none;
+  width: 200px;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  cursor: pointer;
+  font-family: MetaWeb-Normal, sans-serif;
+  font-size: 15px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+#weiter,
+#repeat,
+#checkbutton,
+#preview,
+#submit {
+  background-color: #000000;
+  width: 150px;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  cursor: pointer;
+  font-family: MetaWeb-Normal, sans-serif;
+  font-size: 15px;
+  display: inline-block;
+}
+#frm {
+  margin: auto;
+  border: 0px;
+  width: 80%;
+  /*height: 324px;*/
+}
+
+#frm2 {
+  margin: auto;
+  border: 0px;
+  width: 100%;
+  /*height: 324px*/
+}
+#cfrm {
+  margin: auto;
+  border: 0px;
+  width: 192px;
+  height: 108px;
+}
+
+#secondpart,
+#previewframe,
+#thirdpart,
+#finalframe,
+#finalpart,
+#checkframe {
+  display: none;
+  margin-bottom: 1em;
+}
+
+#fox {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+input#bookingcode {
+  width: 250px;
+  height: 2em;
+  font-size: 1.5em;
+  padding: 0.5em 90px 0.5em 0.5em;
+  color: black;
+  border-radius: 0px;
+  margin-bottom: 10px;
+}
+
+div#preview {
+  display: none;
+}
+
+/* Neue Schlussposten Lösung */
+
+/*Buttons*/
+
+input[type="submit"] {
+  background-color: #000000;
+  width: 150px;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  margin-bottom: 0.3em;
+  text-align: center;
+  cursor: pointer;
+  font-family: MetaWeb-Normal, sans-serif;
+  font-size: 15px;
+  display: inline-block;
+}
+
+button.standard {
+  background-color: #000000;
+  width: 150px;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  margin-bottom: 0.3em;
+  text-align: center;
+  cursor: pointer;
+  font-family: MetaWeb-Normal, sans-serif;
+  font-size: 15px;
+  display: inline-block;
+}
+
+/*Diverses*/
+
+input[type="text"] {
+  width: 3em;
+  height: 2em;
+}
+
+/*Images*/
+
+#schlussfoto,
+#countdown {
+  display: none;
+  width: 100%;
+}
+
+/*div's*/
+
+#headerFinal,
+#contFinal {
+  display: none;
+}
