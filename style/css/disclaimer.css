@@ -3,3 +3,17 @@
 	display:none;
 }
 
+button#ok {
+    background-color: #000000;
+    width: 150px;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    margin-bottom: 0.3em;
+    text-align: center;
+    cursor: pointer;
+    font-family: MetaWeb-Normal, sans-serif;
+    font-size: 15px;
+    display: inline-block;
+}
+
